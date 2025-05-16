@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="ex book">
-      <change afterPath="$PROJECT_DIR$/OOP Exercise Book V3 (1).pdf" afterDir="false" />
+    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="arrays">
+      <change afterPath="$PROJECT_DIR$/src/arrays/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.arrays.Demo.executor": "Run",
     "Application.objects.Demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +52,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.arrays.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.flow.Demo" />
       <module name="DWP-Java" />
@@ -76,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="arrays.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Demo" />
+      <module name="DWP-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="objects.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.Demo" />
       <module name="DWP-Java" />
@@ -91,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arrays.Demo" />
         <item itemvalue="Application.objects.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.HelloWorld" />
@@ -122,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747395939900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="super constructor">
+      <option name="closed" value="true" />
+      <created>1747396409416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747396409416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +164,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inheritance" />
     <MESSAGE value="ex book" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex book" />
+    <MESSAGE value="super constructor" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
 </project>
