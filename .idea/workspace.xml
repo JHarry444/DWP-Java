@@ -8,17 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWP-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/control/flow/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intro/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primitives/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.objects.Demo">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.flow.Demo" />
       <module name="DWP-Java" />
@@ -117,5 +112,16 @@
       <updated>1747300451973</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

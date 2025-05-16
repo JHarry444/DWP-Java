@@ -1,0 +1,59 @@
+package objects;
+
+public abstract class Pet extends Object {
+
+    private String color;
+    private int age;
+    private String breed;
+    private boolean asleep = false;
+    private int weight;
+    private int noOflegs = 4;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public boolean isAsleep() {
+        return asleep;
+    }
+
+    public void setAsleep(boolean asleep) {
+        this.asleep = asleep;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getNoOflegs() {
+        return noOflegs;
+    }
+
+    public void setNoOflegs(int noOflegs) {
+        this.noOflegs = noOflegs;
+    }
+}

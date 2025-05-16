@@ -1,39 +1,43 @@
 package objects;
 
-public class Cat {
+public class Cat extends Pet {
 
-    String colour;
-    int age;
-    String breed;
-    boolean hasWhiskers = true;
-    boolean tail = true;
-    boolean asleep = false;
-    int weight;
-    int lives = 9;
-    int noOflegs = 4;
+    private int lives = 9;
+    private boolean hasWhiskers = true;
+    private boolean tail = true;
 
     public Cat() {
 
     }
 
-    public Cat(int age, int lives, String breed, String colour) {
-        this.age = age;
-        this.lives = lives;
-        this.breed = breed;
-        this.colour = colour;
+
+    int getLives() {
+        return this.lives;
+    }
+
+    void setLives(int lives) {
+        if (lives >= 0 && lives <= 9) {
+            this.lives = lives;
+        } else {
+            System.out.println("Invalid number of lives: " + lives);
+        }
     }
 
 
-    int getHumanAge() {
-        return this.age * 7;
+    public boolean isHasWhiskers() {
+        return hasWhiskers;
     }
 
-    void sleep() {
-        this.asleep = true;
+    public void setHasWhiskers(boolean hasWhiskers) {
+        this.hasWhiskers = hasWhiskers;
     }
 
-    void wakeUp() {
-        this.asleep = false;
+    public boolean isTail() {
+        return tail;
+    }
+
+    public void setTail(boolean tail) {
+        this.tail = tail;
     }
 
 
