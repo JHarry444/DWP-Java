@@ -9,6 +9,18 @@ public abstract class Pet extends Object {
     private int weight;
     private int noOflegs = 4;
 
+    public Pet() {
+    }
+
+    public Pet(String color, int age, String breed, boolean asleep, int weight, int noOflegs) {
+        this.color = color;
+        this.age = age;
+        this.breed = breed;
+        this.asleep = asleep;
+        this.weight = weight;
+        this.noOflegs = noOflegs;
+    }
+
     public String getColor() {
         return color;
     }

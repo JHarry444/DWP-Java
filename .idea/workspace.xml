@@ -7,13 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objects/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
+    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="ex book">
+      <change afterPath="$PROJECT_DIR$/OOP Exercise Book V3 (1).pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +106,23 @@
       <option name="presentableId" value="Default" />
       <updated>1747300451973</updated>
     </task>
+    <task id="LOCAL-00001" summary="inheritance">
+      <option name="closed" value="true" />
+      <created>1747393032482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747393032482</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ex book">
+      <option name="closed" value="true" />
+      <created>1747395939900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747395939900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +135,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inheritance" />
+    <MESSAGE value="ex book" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex book" />
   </component>
 </project>
