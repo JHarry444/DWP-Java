@@ -57,6 +57,12 @@ public class Demo {
         Dog d1 = new Dog();
                            d1.fetch();
         Pet p3 = d1;
-        p3.fetch();
+//        p3.fetch();
+
+        System.out.println(new Pet());
+        System.out.println(new Cat());
+
     }
+
+
 }

@@ -1,6 +1,6 @@
 package objects;
 
-public abstract class Pet extends Object {
+public class Pet extends Object  {
 
     private String color;
     private int age;
@@ -12,6 +12,8 @@ public abstract class Pet extends Object {
     public Pet() {
     }
 
+    pub
+
     public Pet(String color, int age, String breed, boolean asleep, int weight, int noOflegs) {
         this.color = color;
         this.age = age;
@@ -21,7 +23,8 @@ public abstract class Pet extends Object {
         this.noOflegs = noOflegs;
     }
 
-    public abstract void makeNoise();
+    public void makeNoise() {
+    }
 
     public String getColor() {
         return color;
@@ -69,5 +72,15 @@ public abstract class Pet extends Object {
 
     public void setNoOflegs(int noOflegs) {
         this.noOflegs = noOflegs;
+    }
+
+    @Override
+    public String toString() {
+        return "color='" + color + '\'' +
+                ", age=" + age +
+                ", breed='" + breed + '\'' +
+                ", asleep=" + asleep +
+                ", weight=" + weight +
+                ", noOflegs=" + noOflegs;
     }
 }

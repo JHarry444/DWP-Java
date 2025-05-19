@@ -51,5 +51,13 @@ public class Cat extends Pet {
         this.tail = tail;
     }
 
-
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "lives=" + lives +
+                ", hasWhiskers=" + hasWhiskers +
+                ", tail=" + tail +
+                ", " + super.toString() +
+                '}';
+    }
 }
