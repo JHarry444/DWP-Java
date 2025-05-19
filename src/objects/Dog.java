@@ -11,6 +11,11 @@ public class Dog extends Pet{
         super(color, age, breed, asleep, weight, noOflegs);
     }
 
+    @Override
+    public void makeNoise() {
+        System.out.println("WOOF!");
+    }
+
     public void fetch() {
         System.out.println("Good boi!");
     }

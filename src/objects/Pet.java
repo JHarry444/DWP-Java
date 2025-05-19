@@ -21,6 +21,8 @@ public abstract class Pet extends Object {
         this.noOflegs = noOflegs;
     }
 
+    public abstract void makeNoise();
+
     public String getColor() {
         return color;
     }

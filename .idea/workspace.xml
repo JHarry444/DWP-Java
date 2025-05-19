@@ -8,9 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2x7sSdKuJuiSCx7LZSU9d26ZP9h" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,10 +53,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.arrays.Demo">
+  <component name="RunManager" selected="Application.objects.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.flow.Demo" />
       <module name="DWP-Java" />
@@ -107,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.arrays.Demo" />
         <item itemvalue="Application.objects.Demo" />
+        <item itemvalue="Application.arrays.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.HelloWorld" />
       </list>
@@ -147,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747396409416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1747403981413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747403981413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

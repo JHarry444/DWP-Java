@@ -4,6 +4,7 @@ import objects.Cat;
 import objects.Dog;
 import objects.Pet;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Demo {
@@ -37,7 +38,7 @@ public class Demo {
         for (int num : even) {
             System.out.println("EVEN: " + num);
         }
-
+        Arrays.stream(even).reduce(Integer::sum);
 
 
         List.of(3,1,4).toArray();

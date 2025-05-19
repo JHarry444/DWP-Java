@@ -10,9 +10,20 @@ public class Cat extends Pet {
 
     }
 
+    public Cat(int age, int lives, String colour, String breed) {
+        this.setAge(age);
+        this.setLives(lives);
+        this.setColor(colour);
+        this.setBreed(breed);
+    }
 
     int getLives() {
         return this.lives;
+    }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("MEOW");
     }
 
     void setLives(int lives) {
