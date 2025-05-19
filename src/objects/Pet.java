@@ -12,7 +12,6 @@ public class Pet extends Object  {
     public Pet() {
     }
 
-    pub
 
     public Pet(String color, int age, String breed, boolean asleep, int weight, int noOflegs) {
         this.color = color;

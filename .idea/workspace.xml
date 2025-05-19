@@ -7,14 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Plane.java" afterDir="false" />
+    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="interfaces">
+      <change afterPath="$PROJECT_DIR$/src/collections/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.arrays.Demo.executor": "Run",
+    "Application.collections.Demo.executor": "Run",
     "Application.interfaces.Demo.executor": "Run",
     "Application.objects.Demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.interfaces.Demo">
+  <component name="RunManager" selected="Application.collections.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.flow.Demo" />
       <module name="DWP-Java" />
@@ -81,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intro.HelloWorld" />
+    <configuration name="arrays.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Demo" />
       <module name="DWP-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intro.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrays.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Demo" />
+    <configuration name="collections.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Demo" />
       <module name="DWP-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.collections.Demo" />
         <item itemvalue="Application.interfaces.Demo" />
         <item itemvalue="Application.objects.Demo" />
         <item itemvalue="Application.arrays.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747300451973</updated>
-      <workItem from="1747647289880" duration="2944000" />
+      <workItem from="1747647289880" duration="4836000" />
     </task>
     <task id="LOCAL-00001" summary="inheritance">
       <option name="closed" value="true" />
@@ -193,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747403981413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="interfaces">
+      <option name="closed" value="true" />
+      <created>1747654719546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747654719546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +219,7 @@
     <MESSAGE value="ex book" />
     <MESSAGE value="super constructor" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces" />
   </component>
 </project>
