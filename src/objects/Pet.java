@@ -2,6 +2,7 @@ package objects;
 
 public class Pet extends Object  {
 
+    private String name;
     private String color;
     private int age;
     private String breed;
@@ -12,6 +13,9 @@ public class Pet extends Object  {
     public Pet() {
     }
 
+    public Pet(String name) {
+        this.name = name;
+    }
 
     public Pet(String color, int age, String breed, boolean asleep, int weight, int noOflegs) {
         this.color = color;
@@ -20,6 +24,14 @@ public class Pet extends Object  {
         this.asleep = asleep;
         this.weight = weight;
         this.noOflegs = noOflegs;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void makeNoise() {
