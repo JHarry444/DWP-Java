@@ -7,14 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="collections">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/DogNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Kennel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="56b8dbaa-d5ac-4e14-bb33-855fe29f81a4" name="Changes" comment="exceptions">
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/io/BufferedWriter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/io/FileWriter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/io/Writer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/lang/Comparable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/lang/IllegalArgumentException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-24/lib/src.zip!/java.base/java/lang/NumberFormatException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,12 +58,14 @@
     "Application.collections.Demo.executor": "Run",
     "Application.exceptions.Demo.executor": "Run",
     "Application.interfaces.Demo.executor": "Run",
+    "Application.io.Demo.executor": "Run",
     "Application.objects.Demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Work/IdeaProjects/DWP-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,26 +76,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exceptions.Demo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Work\IdeaProjects\DWP-Java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.io.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.Demo" />
       <module name="DWP-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrays.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Demo" />
-      <module name="DWP-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Demo" />
+      <module name="DWP-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="objects.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.Demo" />
       <module name="DWP-Java" />
@@ -139,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.Demo" />
         <item itemvalue="Application.exceptions.Demo" />
         <item itemvalue="Application.collections.Demo" />
         <item itemvalue="Application.interfaces.Demo" />
         <item itemvalue="Application.objects.Demo" />
-        <item itemvalue="Application.arrays.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747300451973</updated>
       <workItem from="1747647289880" duration="7139000" />
-      <workItem from="1747729918402" duration="3338000" />
+      <workItem from="1747729918402" duration="6385000" />
     </task>
     <task id="LOCAL-00001" summary="inheritance">
       <option name="closed" value="true" />
@@ -214,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747662608421</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exceptions">
+      <option name="closed" value="true" />
+      <created>1747733475242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747733475242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +256,8 @@
     <MESSAGE value="arrays" />
     <MESSAGE value="interfaces" />
     <MESSAGE value="collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="collections" />
+    <MESSAGE value="exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
